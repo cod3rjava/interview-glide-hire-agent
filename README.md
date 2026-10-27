@@ -9,7 +9,7 @@ It's just text files: skills your AI already knows how to follow. No server, no 
 1. Clone this repo and open it in Claude Code, Codex, Cursor, or any agent that reads `AGENTS.md`.
 2. Put your resume (PDF, DOCX or MD) in `my-resume/`.
 3. Make a folder for the job, e.g. `companies/google-backend/`, and paste the job description into `jd.md`.
-4. Ask: **"run resume-tailor for google-backend"**.
+4. Ask: **"run resume-tailor for google-backend"**, then **"run ats-check for google-backend"**.
 
 Using ChatGPT or another chat app? Open a skill's `SKILL.md`, paste it in with your resume and the JD.
 
@@ -19,6 +19,7 @@ Using ChatGPT or another chat app? Open a skill's `SKILL.md`, paste it in with y
 | Day | Skill | What it does |
 |---|---|---|
 | 1 | [`resume-tailor`](skills/resume-tailor/SKILL.md) | Rewrites your resume for one JD, asks before adding anything, saves `resume.pdf` + `resume.docx` in the job folder |
+| 2 | [`ats-check`](skills/ats-check/SKILL.md) | Shows what resume software reads from your PDF (plain text, on your device), checks contact, headings, dates, order and keywords, and makes a one-column version if anything fails |
 
 New skill every day. Star the repo to follow along.
 
