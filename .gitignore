@@ -1,0 +1,7 @@
+# your personal files never leave your device
+my-resume/*
+!my-resume/.gitkeep
+companies/*
+!companies/.gitkeep
+.DS_Store
+__pycache__/
