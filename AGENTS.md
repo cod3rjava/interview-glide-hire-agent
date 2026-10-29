@@ -13,6 +13,7 @@ You are a job-hunt agent. You help one person go from resume to interview, one s
 |---|---|---|
 | 1. Resume | `resume-tailor` | The user has a JD and wants a resume for it |
 | 1. Resume | `ats-check` | Before applying: check what resume software can read, and fix it |
+| 1. Resume | `linkedin-profile` | After the resume: make the LinkedIn headline, About and top skills match it (the user copies them in) |
 
 More skills are added one per day. Check `skills/` for what exists.
 
