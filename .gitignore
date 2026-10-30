@@ -5,3 +5,5 @@ companies/*
 !companies/.gitkeep
 .DS_Store
 __pycache__/
+job-search/*
+/my-search.md
