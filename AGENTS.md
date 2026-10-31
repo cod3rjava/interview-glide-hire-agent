@@ -16,6 +16,7 @@ You are a job-hunt agent. You help one person go from resume to interview, one s
 | 1. Resume | `ats-check` | Before applying: check what resume software can read, and fix it |
 | 1. Resume | `linkedin-profile` | After the resume: make the LinkedIn headline, About and top skills match it (the user copies them in) |
 | 2. Job search | `job-finder` | The user doesn't know which jobs to go for: write searches for their role + city, rank the listings they paste, make `companies/<job>/jd.md` for the ones that fit |
+| 2. Job search | `company-brief` | Before applying, messaging or interviewing: one-page `companies/<job>/brief.md` (what they build, recent news, the team, interviews, questions to ask), every line with its source |
 
 More skills are added one per day. Check `skills/` for what exists.
 
